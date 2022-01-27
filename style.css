@@ -1,0 +1,28 @@
+/* Importing a google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    background-color: #eee;
+}
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    /* "vw" sets the font size based on the width of the viewport/browser window */
+    font-size: 2vw;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+
+    /* Width of two images= 45% and width between two images= 2.5%, therefore the width needed for the bottom border in this case is 47.5% */
+    width: 47.5%;
+    /* Margin: auto; centers the p element horizontally inside of the body element */
+    margin: auto;
+}
+img {
+    width: 22.5%;
+    margin: 1.25%;
+    /* The Float CSS Property places an element on the left or right side of its container/parent element allowing Inline/Inline-Block elements to wrap around it. The element is removed from normal document flow. Also, it removes the space between img elements.  */
+    float: left;
+}
